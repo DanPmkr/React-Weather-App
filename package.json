@@ -7,6 +7,7 @@
     "test": "mocha -w app/tests/setup.js app/tests/**/*.spec.js",
     "start": "node server.js"
   },
+  "Edited": "Daniel Odeh",
   "author": "Brandon Morelli",
   "license": "MIT",
   "dependencies": {

@@ -7,7 +7,7 @@ function getTempCallback (location, callback) {
   callback('City not found'); //error case
 }
 //callback function responsible for error and success
-getTempCallback('Portland', function(err, temp) {
+getTempCallback('Abuja', function(err, temp) {
   if (err) {
     console.log('error', err);
   } else {
@@ -24,7 +24,7 @@ function getTempPromise (location) {
   });
 };
 
-getTempPromise ('Portland').then(function (temp) {
+getTempPromise ('Abuja').then(function (temp) {
   console.log('promise success', temp);
 }, function (err) {
   console.log('promise error', err);
